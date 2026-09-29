@@ -1,0 +1,34 @@
+# MANGALORE REFINERY AND PETROCHEMICALS LIMITED (MRPL)
+## STANDARD OPERATING PROCEDURE: MRPL-SOP-VDU-204 (Rev 3.0)
+**Title:** Vacuum Distillation Unit (VDU-2) Column Startup, Ejector Vacuum Pull & Flare Safety Interlocks  
+**Classification:** Confidential | **Target Unit:** VDU-2 & Utilities | **Effective Date:** 2026-09-01  
+
+---
+
+### 1. Purpose & Scope
+This procedure establishes the step-by-step operating guidelines for pre-commissioning nitrogen leak testing, vacuum pull sequence via three-stage steam ejector systems, and furnace transfer line heating under vacuum column operation. All steps adhere to ASME Section VIII Div 1 rules and ISA-5.1 safety protocols.
+
+---
+
+### 2. Critical Operating Parameters & Safety Trip Limits
+
+| Parameter / ISA Tag | Nominal Range | High Alarm Limit | Safety Action / Interlock |
+| :--- | :--- | :--- | :--- |
+| **Column Top Vacuum (PIC-209)** | 12 – 15 mmHg abs | > 25 mmHg abs | Trip Residue Feed, Open N2 Bleed |
+| **Furnace Transfer Temp (TIC-205)** | 385°C – 395°C | > 410°C | Fuel Gas Trip Valve XV-202 Closes |
+| **Steam Ejector Motive (PRV-802)** | 10.5 – 12.0 bar | < 9.0 bar | Switch to Standby Ejector Jet E-202B |
+| **Column Bottoms Liquid (LIC-201)** | 45% – 60% | > 75% | Auto-increase HVGO product pump speed |
+| **NDT Wall Thickness (Ultrasonic)** | 36.4 mm nominal | < 32.5 mm | Turnaround overhaul required |
+
+---
+
+### 3. Standard Operating Sequence
+
+1. **Step 3.1 (Nitrogen Leak Test):** Pressurize the vacuum column to 0.8 bar(g) with high-purity nitrogen via valve FCV-201. Verify soap bubble tightness on all manway gaskets M-201 through M-208. Hold pressure for 60 minutes with < 0.05 bar drop.
+2. **Step 3.2 (Steam Ejector Vacuum Pull):** Open motive steam isolation valve at 11.5 bar to first-stage booster ejector E-201A. Monitor vacuum gauge PIC-209 until column pressure decreases below 20 mmHg abs within 45 minutes.
+3. **Step 3.3 (Atmospheric Residue Feed Admission):** Start feed booster pump P-204A at 180 m³/h when transfer line temperature TIC-205 reaches 340°C. Gradually stabilize heavy vacuum gas oil (HVGO) draw-off rate at 65 m³/h.
+
+---
+
+### 4. Emergency Shutdown & Depressurization
+In the event of vacuum loss (> 35 mmHg abs) or furnace tube rupture, immediately depress the manual ESD button at DCS console 04. This trips solenoid valve SOV-201, isolating fuel gas within 1.2 seconds and opening emergency nitrogen purge FCV-205.

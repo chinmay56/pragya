@@ -1,0 +1,68 @@
+[
+  {
+    "id": 1790515264771,
+    "username": "chinu",
+    "email": "chinmay.ghag6909@gmail.com",
+    "password_hash": "$2b$10$E7VplqU6laZYMIRJRDQ4XuvhrlU1nRjolfMqIVeGonNG0EjctZoKm",
+    "full_name": "chinmay ghag",
+    "role": "engineer",
+    "status": "approved",
+    "auth_provider": "local",
+    "is_active": true,
+    "created_at": "2026-09-27T13:21:04.771Z",
+    "approved_by": 1,
+    "approved_at": "2026-09-27T13:21:22.165Z",
+    "last_login_at": "2026-09-27T21:25:49.320Z"
+  },
+  {
+    "id": 1,
+    "username": "admin",
+    "email": "admin@pragya.internal",
+    "password_hash": "$2b$10$6UPpQBbOcN..RBoKLMPmzuSt1R3rnWO1Prk02fOnczmV72bOzcJf.",
+    "full_name": "System Administrator",
+    "role": "admin",
+    "status": "approved",
+    "auth_provider": "local",
+    "is_active": true,
+    "created_at": "2026-09-20T10:00:00Z",
+    "last_login_at": "2026-09-29T12:04:57.020Z"
+  },
+  {
+    "id": 2,
+    "username": "chinmay",
+    "email": "chinmay@enterprise.internal",
+    "password_hash": "$2b$10$heZFh7OXvp8FrV6DyjbTX.sfSXN8p1EQJpF5o4NfKDPdA/qMwipOW",
+    "full_name": "Chinmay",
+    "role": "engineer",
+    "status": "rejected",
+    "auth_provider": "local",
+    "is_active": true,
+    "created_at": "2026-09-22T10:00:00Z",
+    "approved_by": null,
+    "approved_at": null
+  },
+  {
+    "id": 3,
+    "username": "rajesh",
+    "email": "rajesh.analyst@enterprise.internal",
+    "password_hash": "$2b$10$WJjjsUgrEXXK7/JxFZXp9e.Don17F0B8BZlh4bNI6DQfAHdtEmPU.",
+    "full_name": "Rajesh Patel",
+    "role": "analyst",
+    "status": "pending",
+    "auth_provider": "local",
+    "is_active": true,
+    "created_at": "2026-09-25T10:00:00Z"
+  },
+  {
+    "id": 4,
+    "username": "priya",
+    "email": "priya.audit@enterprise.internal",
+    "password_hash": "$2b$10$CoB7XtwjI83DYPsctwXXreKvPbA7oFghCooCaazA1lDW4zlPxHWLO",
+    "full_name": "Priya Menon",
+    "role": "auditor",
+    "status": "pending",
+    "auth_provider": "local",
+    "is_active": true,
+    "created_at": "2026-09-25T10:00:00Z"
+  }
+]
